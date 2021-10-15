@@ -1,0 +1,133 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    height: 5000px;
+}
+
+
+/* Start navBar */
+
+nav .navbar-fixed-top {
+    padding: 20px;
+}
+
+nav .navbar-nav {
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.navbar-nav>li {
+    float: left;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.navbar-nav>li>a {
+    color: #FFF;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus,
+nav .say-hello a:hover {
+    color: #615CFD;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: rgb(255, 255, 255, 0);
+}
+
+nav .say-hello {
+    float: right;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #615CFD;
+}
+
+nav .say-hello a {
+    text-decoration: none;
+    color: #FFF;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.dropdown-menu {
+    padding: 0 0;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.dropdown-menu>li>a {
+    padding: 7px 20px;
+    font-size: 14px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #5651fd;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+@media (max-width:767px) {
+    .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+    .navbar-nav>li {
+        float: none;
+        padding-top: 5px;
+    }
+    nav .navbar-nav {
+        margin-left: 0;
+        padding-left: 5px;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+}
+
+
+/* End navBar */
+
+
+/*===========================================*/
+
+
+/* Start Header  */
+
+header {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+header .overlay {
+    background-color: rgb(28 26 26 / 80%);
+    height: 100vh;
+}
+
+
+/* End Header  */
